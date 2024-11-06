@@ -24,7 +24,7 @@ TEST(CurveTest, GetKnotsTest) {
   EXPECT_EQ(copied_knots, expected_knots);  // Compare the copied knots with the expected values
 }
 
-// Test for the value method
+// Test for the value method with known input
 TEST(CurveTest, ValueMethodTest) {
   std::vector<std::tuple<double, double>> knots = { {0, 1}, {1, 2}, {2, 3}, {3, 4} };
   Curve curve(knots);
