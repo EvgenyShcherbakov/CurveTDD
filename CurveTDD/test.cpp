@@ -62,7 +62,7 @@ TEST(CurveTest, MinMaxMethodTest) {
       {{-2, 0}, {0, -1}, {2, 4}, {2.5, 3}, {3, 2}, {4, 3}}
   };
 
-  // Expected min and max values
+  // Expected min and max values on the curve
   std::vector<std::pair<std::tuple<double, double>, std::tuple<double, double>>> lst_min_max = {
       {{1.2886751345948129, 0.5874659615021136}, {2.1096984493010407, 4.157063477690783}},
       {{1, 1.0}, {1.9927271762054324, 4.000242132531974}},
